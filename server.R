@@ -29,6 +29,7 @@ shinyServer(function(input, output) {
         require(dplyr)
         require(magrittr)
         require(tidytext)
+        require(ggplot2)
         
     ## load data into tibble
     article_sentences <- reactive({
