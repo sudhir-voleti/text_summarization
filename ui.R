@@ -16,8 +16,8 @@ library(textrank)
 shinyUI(fluidPage(
 
     # Application title
-    titlePanel("Text Summarization Shiny App"),
-
+   # titlePanel("Text Summarization Shiny App"),
+    titlePanel(title=div(img(src="logo.png",align='right'),"Text Summarization Shiny App")),
     # Sidebar with a slider input for number of bins
     sidebarPanel(
             
